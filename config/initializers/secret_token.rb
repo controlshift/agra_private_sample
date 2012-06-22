@@ -4,5 +4,5 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Agra::Application.config.secret_token = 'changeme'
-Agra::Application.config.sha1_salt = 'changeme'
+Agra::Application.config.secret_token = 'changeme  12345678901234567890'
+Agra::Application.config.sha1_salt = 'changeme  12345678901234567890'
